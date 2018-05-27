@@ -11,4 +11,7 @@ From [Wikipedia](https://en.wikipedia.org/wiki/Araucaria):
 When talking about generating tree with code, one is likely to come across [Lindenmayer systems, or L-systems](https://en.wikipedia.org/wiki/L-system). Danniel Shifman has an [excellent tutorial](https://www.youtube.com/watch?v=E1B4UoSQMFw) on the subject, which is a great way to familiarize yourself with L-systems and their possibilities.
 I was not able to find any L-system remotely close to the araucária image I wanted, and quickly gave up trying to come up with a set of productions to achieve that. 
 The next idea I explored was to use polynomial curves to draw branches, and use a mere circle to represent the leaves.  
-![](./docs/tree-1.png)
+![](/assets/tree-1.png)
+
+Once the basic shape seemed ok, the next step was to create several copies of it, and somehow distribute them on the canvas.
+![](/assets/01-sto-araucaria-medium.png)
