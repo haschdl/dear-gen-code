@@ -7,7 +7,7 @@ Every monday we take turns in selecting a design prompt, a one-word idea which e
 
 
 # Araucária
-[![Click on the image to see the code](/assets/01-sto-araucaria-small.png)](/Week-01-Araucaria)
+[![](/assets/01-sto-araucaria-small.png) "Click on the image to see the code"](/Week-01-Araucaria)
 
 # Universo
 [![Click on the image to see the code](/assets/01-sto-araucaria-small.png)](/Week-02-Universo)
