@@ -11,9 +11,9 @@ PGraphics buffer2;
 ArrayList<Tree> trees = new ArrayList<Tree>();
 int mainColor;
 void setup() {
-  size(1000, 500);
-  buffer1 = createGraphics(5000, 2500);
-  buffer2 = createGraphics(5000, 2500);
+  size(900, 600);
+  buffer1 = createGraphics(5000, 3333);
+  buffer2 = createGraphics(5000, 3333);
   h = buffer1.height;
   w = buffer1.width;
   mainColor = color(56, 90, 78);
@@ -58,6 +58,7 @@ void draw() {
   buffer2.image(buffer1, 0, 0, w, h);
   buffer2.endDraw();
   image(buffer2, 0, 0, width, height);
+  
   if (frameCount >= t_per_row)
     noLoop();
 }
