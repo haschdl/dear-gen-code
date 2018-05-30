@@ -1,6 +1,6 @@
 # Week 2: Universo
 > This composition is part of the [Dear Gen](./README.MD) project.
-
+![](/assets/03-sto-universo-2000.png)
 ## The prompt
 `Universo` was announced without any fanfare, more or less at the same time we told each other that we had posted the first challenge, [Araucária](../Week-01-Araucaria/). It was Régis's first drawing prompt in project.
 
