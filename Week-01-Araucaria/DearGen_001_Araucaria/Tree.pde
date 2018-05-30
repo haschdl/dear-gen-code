@@ -6,8 +6,7 @@ class Tree {
   //size
   float tree_width;
   float stem_width;
-  //styling
-  float alpha;
+  
   int leaf_color;
   float strokeWeight = 5;
 
@@ -43,13 +42,13 @@ class Tree {
     buffer.pushStyle();
     buffer.translate(x, y);
     buffer.noStroke();
-    buffer.fill(this.leaf_color, 80);// this.alpha);
+    buffer.fill(this.leaf_color);
     buffer.ellipse(0, 0, s, s);
     buffer.popStyle();
     buffer.popMatrix();
   }
   void stem(float x, float y, float w1, float h1) {
-    buffer.fill(mainColor, this.alpha);
+    buffer.fill(mainColor);
     buffer.noStroke();
     buffer.rect(x-w1, y, w1*2, h1);
     leaf(x, y, w1*4);
@@ -60,7 +59,7 @@ class Tree {
     buffer.beginShape();
     buffer.vertex(0, 0);
     buffer.noFill();
-    buffer.stroke(mainColor, this.alpha);
+    buffer.stroke(mainColor);
     buffer.strokeWeight(this.strokeWeight);
     int n = 100;
     float x_i=0, y_i=0;

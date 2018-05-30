@@ -8,9 +8,9 @@ Every monday we take turns in selecting a design prompt, a one-word idea which e
 
 |Week|Theme|Teaser
 |---|---|---|
-|01|[Araucária](/Week-01-Araucaria)|![](/assets/01-sto-araucaria-small.png)|
-|02|[Universo](/Week-02-Universo)|
-|03| TBD | |
+|01|[Araucária](/Week-01-Araucaria/)|![](/assets/01-sto-araucaria-small.png)|
+|02|[Universo](/Week-02-Universo/)|![](/assets/03-sto-universo-small.png)
+|03| Palha | COMING SOON |
 |04| TBD | |
 |05| TBD | |
  

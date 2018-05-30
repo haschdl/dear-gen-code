@@ -28,20 +28,17 @@ void draw() {
   buffer1.endDraw();
 
   trees.clear();
-  float three_height = 400;
+  float three_height = 450;
   int t_per_row = int((float)h/three_height);
-  int n_trees = 10;
+  int n_trees = 8;
 
   float x=0, y=0;
   Tree t = new Tree(buffer1, 0., 0., 0., 0.);
   for (int i=0; i<n_trees; i++) {
     x =  w/n_trees * (.5 + i + .1 *(1 - 2*noise(i+millis()))) + 20 ;
     y =  three_height * ((frameCount-1) % t_per_row) + frameCount*10 + 10 ;
-    x = max(x, t.pos.x+t.tree_width + 10);
-
-    float alpha = 255;
+    x = max(x, t.pos.x+t.tree_width + 10);    
     t = new Tree(buffer1, x, y, three_height, stem_width);
-    t.alpha = alpha;
     t.leaf_color = color(0, 116, 98);
     t.n_branches = int(8 + 3* randomGaussian());
     if (t.n_branches > 4)
