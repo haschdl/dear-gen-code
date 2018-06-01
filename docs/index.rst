@@ -18,4 +18,12 @@ Week  Theme                                 Teaser
 05    TBD 
 ====  ====================================  ======
 
+.. toctree::
+   :maxdepth: 2
+
+   Week-01-Araucaria
+   Week-02-Universo
+
+
+
 [<sup>1</sup>](#footnote-processing) Processing is a software sketchbook and a language for learning how to code within the context of the visual arts. If you're not familiar with Processing check the intro video at [processing.org](https://processing.org/).
