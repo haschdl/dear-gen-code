@@ -9,7 +9,7 @@ first challenge, `Araucária`_. It was Régis’s first drawing prompt in
 project.
 
 The golden spiral and golden rectangle
-======================================
+--------------------------------------
 
 | I knew from the beginning that I would not be exploring ideas related
   to galaxies and the stars. Instead, I wanted to surprise Régis with
