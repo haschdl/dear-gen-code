@@ -20,5 +20,8 @@ The next idea I explored was to use polynomial curves to draw branches, and use 
 Once the basic shape seemed ok, the next step was to create several copies of it, and somehow distribute them on the canvas. 
 
 .. image:: /assets/01-sto-araucaria-medium.png
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> eed19f2ea6f6d353db44def551b5a34ced149a2f
