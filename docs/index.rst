@@ -24,7 +24,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   ../Week-01-Araucaria/README.rst
+   Week-01-Araucaria
 
 
 
