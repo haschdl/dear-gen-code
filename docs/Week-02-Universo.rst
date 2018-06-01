@@ -75,5 +75,5 @@ To see the output with only the subdivisions drawn, locate and uncomment
 .. _golden rectangle: https://en.wikipedia.org/wiki/Golden_rectangle
 .. _: https://en.wikipedia.org/wiki/Golden_spiral
 
-.. |image0| image:: /docs/assets/03-sto-universo-2000.png
-.. |image1| image:: /docs/assets/02-goldenrect-02.png
+.. |image0| image:: /assets/03-sto-universo-2000.png
+.. |image1| image:: /assets/02-goldenrect-02.png

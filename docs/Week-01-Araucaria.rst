@@ -15,10 +15,10 @@ When talking about generating tree with code, one is likely to come across `Lind
 I was not able to find any L-system remotely close to the araucária image I wanted, and quickly gave up trying to come up with a set of productions to achieve that. 
 The next idea I explored was to use polynomial curves to draw branches, and use a mere circle to represent the leaves.  
 
-.. image:: ./docs/assets/tree-1.png
+.. image:: /assets/tree-1.png
 
 Once the basic shape seemed ok, the next step was to create several copies of it, and somehow distribute them on the canvas. 
 
-.. image:: ./docs/assets/01-sto-araucaria-medium.png
+.. image:: /assets/01-sto-araucaria-medium.png
 
 
