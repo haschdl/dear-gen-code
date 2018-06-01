@@ -14,12 +14,12 @@ card at our homes. All drawings are made with Processing [1]_.
 ====  ====================================  ======
 Week  Theme                                 Teaser
 ----  ------------------------------------  ------
-01    `Araucária <Week-01-Araucaria>`_     .. image:: /assets/01-sto-araucaria-small.png
-02    `Universo <Week-02-Universo>`_       .. image:: /assets/03-sto-universo-small.png
-03    Palha                                  COMING SOON 
-04    TBD
-05    TBD 
+01    `Araucária <Week-01-Araucaria>`_      .. image:: /assets/01-sto-araucaria-small.png
+02    `Universo <Week-02-Universo>`_        .. image:: /assets/03-sto-universo-small.png
+03    Palha                                 COMING SOON 
+04    COMING SOON                           COMING SOON 
 ====  ====================================  ======
+
 
 Contents
 --------
