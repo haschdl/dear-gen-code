@@ -27,7 +27,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   Week-01-Araucaria
+   includes
 
 
 
