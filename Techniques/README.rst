@@ -1,6 +1,8 @@
-# Techniques
+Techniques
+==========
 
-## Using a palette of colors
+Using a palette of colors
+-------------------------
 
 When drawing with code, you have many options to apply color. One common way, especially when getting started, or just for trying out, is simply to assign a random color to your composition, by using `random(255)`. 
 
