@@ -27,7 +27,10 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   _includes
+   Week-01-Araucaria
+   Week-02-Universo
+   Week-03-Palha
+   Techniques
 
 
 
