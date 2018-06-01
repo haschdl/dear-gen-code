@@ -1,4 +1,3 @@
-.. include:: ../Week-01-Araucaria/README.rst
 Dear Gen
 ________
 
