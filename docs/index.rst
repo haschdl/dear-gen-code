@@ -21,7 +21,7 @@ Week  Theme                                 Teaser
 .. toctree::
    :maxdepth: 2
 
-   ../Week-01-Araucaria/
+   ../Week-01-Araucaria/readme
    ../Week-02-Universo/
 
 
