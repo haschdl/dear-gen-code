@@ -18,7 +18,7 @@ for all cards, therefore I did only one copy with the online service.
 
     *Araucária* printed on a folded card.
 
-.. figure::  /assets/01-sto-araucaria-folded-card-inside.jpg
+.. figure:: /assets/01-sto-araucaria-folded-card-inside.jpg
     :scale: 25 %
 
     Inner pages of the folded card, with source code printed.
