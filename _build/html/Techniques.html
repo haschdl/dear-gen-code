@@ -149,20 +149,29 @@
 <h1>Techniques<a class="headerlink" href="#techniques" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="using-a-palette-of-colors">
 <h2>Using a palette of colors<a class="headerlink" href="#using-a-palette-of-colors" title="Permalink to this headline">¶</a></h2>
-<p>When drawing with code, you have many options to apply color. One common way, especially when getting started, or just for trying out, is simply to assign a random color to your composition, by using <cite>random(255)</cite>.</p>
-<p><code class="docutils literal notranslate"><span class="pre">`java</span>
-<span class="pre">color</span> <span class="pre">c</span> <span class="pre">=</span> <span class="pre">color(random(255),</span> <span class="pre">random(255),random(255))</span>
-<span class="pre">`</span></code>
-One idea that I used in several drawings is to first choose a few colors and pick randomly from that list. I use services such as [coolors.co/](<a class="reference external" href="https://coolors.co/">https://coolors.co/</a>) to generate and tweak color palettes, and when I am satisfied with the colors, I simply copy and paste the hexadecimal values to Processing.</p>
-<p><a href="#id1"><span class="problematic" id="id2">``</span></a><a href="#id3"><span class="problematic" id="id4">`</span></a>java
-//A palette with 5 colors
+<p>When drawing with code, you have many options to apply color. One common way, especially when
+getting started, or just for trying out, is simply to assign a random color to your composition, by
+using <cite>random(255)</cite>.</p>
+<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span><span class="n">color</span> <span class="n">c</span> <span class="o">=</span> <span class="n">color</span><span class="o">(</span><span class="n">random</span><span class="o">(</span><span class="mi">255</span><span class="o">),</span> <span class="n">random</span><span class="o">(</span><span class="mi">255</span><span class="o">),</span><span class="n">random</span><span class="o">(</span><span class="mi">255</span><span class="o">))</span>
+</pre></div>
+</div>
+<p>One idea that I used in several drawings is to first choose a few colors and pick randomly from
+that list. I use services such as <a class="reference external" href="https://coolors.co/">coolors.co</a> to generate and tweak color palettes,
+and when I am satisfied with the colors, I simply copy and paste the hexadecimal values to Processing.</p>
+<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span>//A palette with 5 colors
 int[] palette = new int[]{ #88498F, #779FA1, #E0CBA8, #FF6542, #564154 };
-//choosing a ‘random’ color from my palette
+
+//choosing a &#39;random&#39; color from my palette
 color c = palette[int(random(5))];
+
 //same as
-color c = palette[int(random(palette.length))];</p>
-<p><a href="#id5"><span class="problematic" id="id6">``</span></a>`
-&gt; Remember that in Processing colors are simple integer numbers. Numbers can also be written in hexadecimal, as above.</p>
+color c = palette[int(random(palette.length))];
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="first admonition-title">Tip</p>
+<p class="last">Remember that in Processing colors are simple integer numbers. Numbers can also be written in hexadecimal, as above.</p>
+</div>
 </div>
 </div>
 
