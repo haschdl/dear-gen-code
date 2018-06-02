@@ -31,7 +31,7 @@ Contents
    Week-02-Universo
    Week-03-Palha
    Techniques
-
+   Printing
 
 
 .. [1] Processing is a software sketchbook and a language for learning how to code within the context of the visual arts. 
