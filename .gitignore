@@ -1,5 +1,5 @@
-**/_build/
-**/_build/html/
+**/_build/*
+**/_build/html/*
 /src/Week-03-Palha/
 **/out/*.tiff
 **/out/*.png

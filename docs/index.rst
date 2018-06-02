@@ -16,9 +16,12 @@ Week  Theme                                 Teaser
 ----  ------------------------------------  ------
 01    :doc:`Araucária<Week-01-Araucaria>`   .. image:: /assets/01-sto-araucaria-small.png
 02    :doc:`Universo<Week-02-Universo>`     .. image:: /assets/03-sto-universo-small.png
-03    Palha                                 COMING SOON 
+03    :doc:`Palha<Week-03-Palha>`           |image0|
 04    COMING SOON                           COMING SOON 
 ====  ====================================  ======
+
+.. |image0| image:: /assets/03-sto-palha-2000.png
+            :scale: 10%
 
 
 Contents
