@@ -1,5 +1,5 @@
-Week 3: Palha
-=============
+Palha
+=====
 
 |image0|
 

@@ -30,7 +30,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Printing" href="Printing.html" />
-    <link rel="prev" title="Week 3: Palha" href="Week-03-Palha.html" /> 
+    <link rel="prev" title="At the rose garden" href="Extra-01-At-the-Rose-Garden.html" /> 
 
   
   <script src="_static/js/modernizr.min.js"></script>
@@ -80,11 +80,16 @@
             
             
               <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="Week-01-Araucaria.html">Week 1: Araucária</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Week-02-Universo.html">Week 2: Universo</a></li>
-<li class="toctree-l1"><a class="reference internal" href="Week-03-Palha.html">Week 3: Palha</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html">Dear Gen</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Gallery.html">Gallery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week-01-Araucaria.html">Araucária</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week-02-Universo.html">Universo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Week-03-Palha.html">Palha</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Extra-01-At-the-Rose-Garden.html">At the rose garden</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Techniques</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#using-a-palette-of-colors">Using a palette of colors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-high-resolution-images">Creating high-resolution images</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#saving-the-file">Saving the file</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="Printing.html">Printing</a></li>
@@ -149,28 +154,64 @@
 <h1>Techniques<a class="headerlink" href="#techniques" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="using-a-palette-of-colors">
 <h2>Using a palette of colors<a class="headerlink" href="#using-a-palette-of-colors" title="Permalink to this headline">¶</a></h2>
-<p>When drawing with code, you have many options to apply color. One common way, especially when
-getting started, or just for trying out, is simply to assign a random color to your composition, by
-using <cite>random(255)</cite>.</p>
-<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span><span class="n">color</span> <span class="n">c</span> <span class="o">=</span> <span class="n">color</span><span class="o">(</span><span class="n">random</span><span class="o">(</span><span class="mi">255</span><span class="o">),</span> <span class="n">random</span><span class="o">(</span><span class="mi">255</span><span class="o">),</span><span class="n">random</span><span class="o">(</span><span class="mi">255</span><span class="o">))</span>
-</pre></div>
-</div>
-<p>One idea that I used in several drawings is to first choose a few colors and pick randomly from
-that list. I use services such as <a class="reference external" href="https://coolors.co/">coolors.co</a> to generate and tweak color palettes,
-and when I am satisfied with the colors, I simply copy and paste the hexadecimal values to Processing.</p>
-<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span>//A palette with 5 colors
-int[] palette = new int[]{ #88498F, #779FA1, #E0CBA8, #FF6542, #564154 };
+<p>In several drawings of the Dear Gen project I used a predefined palette of colors, instead of generating the colors with code.
+I use services such as <a class="reference external" href="https://coolors.co/">coolors.co</a> to generate and tweak color palettes,
+and when I am satisfied with the colors, I simply copy and paste the hexadecimal values to an array in my sketch code.
+I can then pick a color from the palette using <code class="code docutils literal notranslate"><span class="pre">palette[index]</span></code> and use it to
+set fill color or stroke color.</p>
+<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nf">setup</span><span class="o">()</span> <span class="o">{</span>
+    <span class="c1">//A palette with 5 colors</span>
+    <span class="kt">int</span><span class="o">[]</span> <span class="n">palette</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span> <span class="mh">0xFFE28413</span><span class="o">,</span> <span class="mh">0xFFF56416</span><span class="o">,</span> <span class="mh">0xFFDD4B1A</span><span class="o">,</span> <span class="mh">0xFFEF271B</span><span class="o">,</span> <span class="mh">0xFFEA1744</span> <span class="o">};</span>
 
-//choosing a &#39;random&#39; color from my palette
-color c = palette[int(random(5))];
+    <span class="c1">//choosing a &#39;random&#39; color from my palette</span>
+    <span class="n">color</span> <span class="n">c</span> <span class="o">=</span> <span class="n">palette</span><span class="o">[</span><span class="kt">int</span><span class="o">(</span><span class="n">random</span><span class="o">(</span><span class="mi">5</span><span class="o">))];</span>
 
-//same as
-color c = palette[int(random(palette.length))];
+    <span class="c1">//same as</span>
+    <span class="n">color</span> <span class="n">c</span> <span class="o">=</span> <span class="n">palette</span><span class="o">[</span><span class="kt">int</span><span class="o">(</span><span class="n">random</span><span class="o">(</span><span class="n">palette</span><span class="o">.</span><span class="na">length</span><span class="o">))];</span>
+<span class="o">}</span>
 </pre></div>
 </div>
 <div class="admonition tip">
 <p class="first admonition-title">Tip</p>
 <p class="last">Remember that in Processing colors are simple integer numbers. Numbers can also be written in hexadecimal, as above.</p>
+</div>
+<p>If you are interested in a more comprehensive discussion on colors in generative drawing, I highly recommend the article <a class="reference external" href="http://www.tylerlhobbs.com/writings/generative-colors">Working with
+color in generative art</a>, by the digital artist Tyler Hobs.</p>
+</div>
+<div class="section" id="creating-high-resolution-images">
+<h2>Creating high-resolution images<a class="headerlink" href="#creating-high-resolution-images" title="Permalink to this headline">¶</a></h2>
+<p>To create high-resolution image exports, you can draw to a <code class="docutils literal notranslate"><span class="pre">PGraphics</span></code> object, which in
+most sketches of this project is named <code class="docutils literal notranslate"><span class="pre">buffer</span></code>. The basic process is as follows:</p>
+<ol class="arabic simple">
+<li><dl class="first docutils">
+<dt>Declare a PGraphics object as a global variable on the top of the sketch code:</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">PGraphics</span> <span class="pre">buffer;</span></code></dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>In <code class="code docutils literal notranslate"><span class="pre">setup()</span></code>, you must use the method <cite>createGraphics()</cite> to instantiate the object.</dt>
+<dd><code class="docutils literal notranslate"><span class="pre">buffer</span> <span class="pre">=</span> <span class="pre">createGraphics(3000,</span> <span class="pre">2000);</span></code></dd>
+</dl>
+</li>
+<li>In <code class="docutils literal notranslate"><span class="pre">setup()</span></code> and <code class="docutils literal notranslate"><span class="pre">draw()</span></code>, do all drawing operations on the <code class="docutils literal notranslate"><span class="pre">buffer</span></code> object.</li>
+<li>Finally, at the end of the <code class="docutils literal notranslate"><span class="pre">draw()</span></code> method, show the contents of the buffer with <code class="docutils literal notranslate"><span class="pre">image(buffer,0,0,width,height)</span></code>.
+This approach scales down the contents of the buffer to the size of your sketch (<code class="docutils literal notranslate"><span class="pre">width</span></code> and <code class="docutils literal notranslate"><span class="pre">height</span></code>).</li>
+</ol>
+</div>
+<div class="section" id="saving-the-file">
+<h2>Saving the file<a class="headerlink" href="#saving-the-file" title="Permalink to this headline">¶</a></h2>
+<p>In most sketches the code to export the image is inside the <code class="code docutils literal notranslate"><span class="pre">keyPressed()</span></code> method, as below.
+In line 2, I used the key <kbd class="kbd docutils literal notranslate">S</kbd> to save the sketch by checking the variable <code class="code docutils literal notranslate"><span class="pre">key</span></code>, which is available in Processing
+as a global variable. The with <code class="code docutils literal notranslate"><span class="pre">String.format</span></code> I create the file name, usually adding the time to the file name, so
+that all files are saved - if you use only “filename.jpg”, then the exported image is replaced every time you press <kbd class="kbd docutils literal notranslate">S</kbd>.</p>
+<div class="highlight-Java notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nf">keyPressed</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">if</span> <span class="o">(</span><span class="n">key</span> <span class="o">==</span> <span class="sc">&#39;S&#39;</span> <span class="o">||</span> <span class="n">key</span> <span class="o">==</span> <span class="sc">&#39;s&#39;</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">String</span> <span class="n">fileName</span> <span class="o">=</span> <span class="n">String</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="s">&quot;water_color_%02d%02d%02d.tiff&quot;</span><span class="o">,</span> <span class="n">hour</span><span class="o">(),</span> <span class="n">minute</span><span class="o">(),</span> <span class="n">second</span><span class="o">());</span>
+        <span class="n">buffer</span><span class="o">.</span><span class="na">save</span><span class="o">(</span><span class="n">fileName</span><span class="o">);</span>
+        <span class="n">println</span><span class="o">(</span><span class="s">&quot;Composition saved!&quot;</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
 </div>
 </div>
 </div>
@@ -186,7 +227,7 @@ color c = palette[int(random(palette.length))];
         <a href="Printing.html" class="btn btn-neutral float-right" title="Printing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="Week-03-Palha.html" class="btn btn-neutral" title="Week 3: Palha" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+        <a href="Extra-01-At-the-Rose-Garden.html" class="btn btn-neutral" title="At the rose garden" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
       
     </div>
   

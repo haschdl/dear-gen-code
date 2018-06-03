@@ -1,5 +1,5 @@
-Week 1: Araucária
-=================
+Araucária
+=========
 
 From `Wikipedia <https://en.wikipedia.org/wiki/Araucaria>`_:
 
