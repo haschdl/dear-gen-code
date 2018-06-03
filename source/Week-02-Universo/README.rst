@@ -5,4 +5,4 @@ Week 2: Universo
  
 |image0|
 
-.. |image0| image:: /docs/assets/03-sto-universo-2000.png
+.. |image0| image:: /docsassets/03-sto-universo-2000.png
