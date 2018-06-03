@@ -7,7 +7,7 @@ From `Wikipedia <https://en.wikipedia.org/wiki/Araucaria>`_:
 
 The prompt
 ----------
-`Araucária` was the very first prompt for the `Dear-Gen </>`_ project. The other options offered to `Régis Frias <https://github.com/regisfrias/dear-gen>`_ were spider web, and `oca indígena`. All three images came to my head during a train ride between Amsterdam and Rotterdam, while the idea for the project materialized.
+`Araucária` was the very first prompt for the :doc:`index` project. The other options offered to `Régis Frias <https://github.com/regisfrias/dear-gen>`_ were spider web, and `oca indígena`. All three images came to my head during a train ride between Amsterdam and Rotterdam, while the idea for the project materialized.
 
 The creative process
 --------------------
@@ -15,10 +15,10 @@ When talking about generating tree with code, one is likely to come across `Lind
 I was not able to find any L-system remotely close to the araucária image I wanted, and quickly gave up trying to come up with a set of productions to achieve that. 
 The next idea I explored was to use polynomial curves to draw branches, and use a mere circle to represent the leaves.  
 
-.. image:: /assets/tree-1.png
+.. image:: assets/tree-1.png
 
 Once the basic shape seemed ok, the next step was to create several copies of it, and somehow distribute them on the canvas. 
 
-.. image:: /assets/01-sto-araucaria-medium.png
+.. image:: assets/01-sto-araucaria-medium.png
 
 

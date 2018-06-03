@@ -7,7 +7,7 @@ From `Wikipedia <https://en.wikipedia.org/wiki/Araucaria>`_:
 
 The prompt
 ----------
-`Araucária` was the very first prompt for the `Dear-Gen </>`_ project. The other options offered to `Régis Frias <https://github.com/regisfrias/dear-gen>`_ were spider web, and `oca indígena`. All three images came to my head during a train ride between Amsterdam and Rotterdam, while the idea for the project materialized.
+`Araucária` was the very first prompt for the :doc:`index` project. The other options offered to `Régis Frias <https://github.com/regisfrias/dear-gen>`_ were spider web, and `oca indígena`. All three images came to my head during a train ride between Amsterdam and Rotterdam, while the idea for the project materialized.
 
 The creative process
 --------------------

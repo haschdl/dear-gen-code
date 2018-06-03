@@ -26,7 +26,7 @@ set fill color or stroke color.
 .. TIP:: Remember that in Processing colors are simple integer numbers. Numbers can also be written in hexadecimal, as above. 
 
 If you are interested in a more comprehensive discussion on colors in generative drawing, I highly recommend the article `Working with 
-color in generative art <http://www.tylerlhobbs.com/writings/generative-colors>`_, by the digital artist Tyler Hobs.
+color in generative art <http://www.tylerlhobbs.com/writings/generative-colors>`_, by the digital artist Tyler Hobbs.
 
 Creating high-resolution images
 -------------------------------

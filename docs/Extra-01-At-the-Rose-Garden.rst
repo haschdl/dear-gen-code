@@ -1,7 +1,7 @@
 At the rose garden
 ==================
 
-   This composition is part of the `Dear Gen`_ project.
+   This composition is part of the :doc:`index` project.
 
 |image0| 
 
@@ -65,8 +65,6 @@ The :code:`deformBlob()` is an implementation of the algorithm above.
         vertices.clear();
         return blob;
     }
-
-.. _Dear Gen: :doc:index
 
 .. [1] http://www.tylerlhobbs.com/writings/watercolor
 

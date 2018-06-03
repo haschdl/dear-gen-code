@@ -1,13 +1,13 @@
 Universo
 ========
 
-   This composition is part of the `Dear Gen`_ project.
+   This composition is part of the :doc:`index` project.
 
 |image0| 
 
 The prompt ``Universo`` was announced without any fanfare,
 immediately when we told each other that we had posted the
-first challenge, `Araucária`_. It was Régis’s first drawing prompt in
+first challenge, :doc:`Week-01-Araucaria`. It was Régis’s first drawing prompt in
 project.
 
 The golden spiral and golden rectangle
@@ -68,10 +68,9 @@ and used the modulus functions in the loop.
 
 To see the output with only the subdivisions drawn, locate and un-comment :code:`drawGold()`.
 
-.. _Dear Gen: :doc:index
-.. _Araucária: :doc:`Week-01-Araucaria`
+
 .. _antique maps of the world and stars: https://www.google.se/search?q=antique+maps+of+the+universe&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj34-yZj5_bAhWLECwKHVg8AyIQ_AUICigB&biw=1536&bih=734
 .. _golden rectangle: https://en.wikipedia.org/wiki/Golden_rectangle
 
-.. |image0| image:: /assets/03-sto-universo-2000.png
-.. |image1| image:: /assets/02-goldenrect-02.png
+.. |image0| image:: assets/03-sto-universo-2000.png
+.. |image1| image:: assets/02-goldenrect-02.png
