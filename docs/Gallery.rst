@@ -23,5 +23,6 @@ Gallery
     ====  ====================================  ======
 
 .. |image0| image:: assets/03-sto-palha-2000.png
-            :scale: 10%
-.. |RoseGarden| image:: assets/03-sto-extra-rosario-small.png
+            :width: 200 px
+.. |RoseGarden| image:: assets/03-sto-extra-rose-garden-small.jpg
+            :width: 200 px
