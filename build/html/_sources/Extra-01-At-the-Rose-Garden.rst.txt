@@ -70,7 +70,7 @@ The :code:`deformBlob()` is an implementation of the algorithm above.
 
 .. [1] http://www.tylerlhobbs.com/writings/watercolor
 
-.. |image0| image:: /assets/03-sto-extra-rosario-small.png
+.. |image0| image::  assets/03-sto-extra-rosario-small.png
 .. |figure1| image:: /assets/ref-watercolor-01.png
 .. |figure2| image:: /assets/ref-watercolor-02.png
 .. |figure3| image:: /assets/ref-watercolor-03.png
