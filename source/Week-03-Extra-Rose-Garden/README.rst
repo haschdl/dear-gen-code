@@ -5,4 +5,4 @@ At the rose garden
  
 |image0|
 
-.. |image0| image:: assets/03-sto-extra-rosario-small.png
+.. |image0| image:: /docs/assets/03-sto-extra-rosario-small.png
