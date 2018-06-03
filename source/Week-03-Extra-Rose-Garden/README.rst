@@ -1,8 +1,8 @@
-Week 2: Universo
-================
+At the rose garden
+==================
 
-     | Source code for `/docs/Week-03-Extra-Rosario </docs/Week-03-Extra-Rosario.rst>`_. Part of `Dear Gen </>`_ project.
+     | Source code for `/docs/Extra-01-At-the-Rose-Garden </docs/Extra-01-At-the-Rose-Garden.rst>`_. Part of `Dear Gen </>`_ project.
  
 |image0|
 
-.. |image0| image:: /docsassets/03-sto-extra-rosario-small.png
+.. |image0| image:: assets/03-sto-extra-rosario-small.png
