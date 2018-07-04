@@ -20,10 +20,28 @@ Contents
    
    self
    Gallery
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   :caption: The drawings
+
    Week*
    Extra*
+
+
+
+.. toctree::
+   :maxdepth: 2
+   :glob:
+   :caption: Appendices
+
    Techniques
    Printing
+
+
 
 
 .. [1] 

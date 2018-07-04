@@ -16,6 +16,54 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+#From: http://ericholscher.com/blog/2016/jul/25/integrating-jinja-rst-sphinx/
+def rstjinja(app, docname, source):
+    """
+    Render our pages as a jinja template for fancy templating goodness.
+    """
+    # Make sure we're outputting HTML
+    if app.builder.format != 'html':
+        return
+    src = source[0]
+    rendered = app.builder.templates.render_string(
+        src, app.config.html_context
+    )
+    source[0] = rendered
+
+def setup(app):
+    app.connect("source-read", rstjinja)
+
+# -- Half Scheidl, custom functions for Dear Gen
+import glob
+from os.path import dirname,abspath,basename
+parent = dirname(dirname(abspath(__file__)))
+source = parent + "\source\**\*.pde"
+row_count = {}
+
+def bufcount(filename):
+    with open(filename) as f:                  
+     lines = 0
+     buf_size = 1024 * 1024
+     read_f = f.read # loop optimization
+
+     buf = read_f(buf_size)
+     while buf:
+         lines += buf.count('\n')
+         buf = read_f(buf_size)
+
+    return lines
+
+print("Counting rows for source code...")
+
+for f in glob.glob(source,recursive=True):
+  #print(basename(dirname(dirname(f))) + "=" + str(bufcount(f)))
+  row_count[basename(dirname(dirname(f)))] = str(bufcount(f))
+
+
+html_context = {
+    'row_count': row_count
+}
+
 
 # -- Project information -----------------------------------------------------
 
@@ -88,6 +136,9 @@ html_theme = 'sphinx_rtd_theme'
 # documentation.
 #
 # html_theme_options = {}
+
+locale_dirs = ['../locales/']   # path is example but recommended.
+gettext_compact = False     # optional.
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

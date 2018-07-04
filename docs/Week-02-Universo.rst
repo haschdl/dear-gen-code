@@ -72,5 +72,5 @@ To see the output with only the subdivisions drawn, locate and un-comment :code:
 .. _antique maps of the world and stars: https://www.google.se/search?q=antique+maps+of+the+universe&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj34-yZj5_bAhWLECwKHVg8AyIQ_AUICigB&biw=1536&bih=734
 .. _golden rectangle: https://en.wikipedia.org/wiki/Golden_rectangle
 
-.. |image0| image:: assets/03-sto-universo-2000.png
+.. |image0| image:: assets/03-sto-universo-2000.jpg
 .. |image1| image:: assets/02-goldenrect-02.png

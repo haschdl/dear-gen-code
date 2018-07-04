@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Half Scheidl
+# This file is distributed under the same license as the Dear Gen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dear Gen \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../docs/Week-01-Araucaria.rst:2
+msgid "Araucária"
+msgstr ""
+
+#: ../../docs/Week-01-Araucaria.rst:4
+msgid "From `Wikipedia <https://en.wikipedia.org/wiki/Araucaria>`_:"
+msgstr ""
+
+#: ../../docs/Week-01-Araucaria.rst:6
+msgid ""
+"> Araucaria (/ærɔːˈkɛəriə/; original pronunciation: [a.ɾawˈka. ɾja])[4] "
+"is a genus of evergreen coniferous trees in the family Araucariaceae. "
+"There are 20 extant species in New Caledonia (where 14 species are "
+"endemic, see New Caledonian Araucaria), Norfolk Island, eastern "
+"Australia, New Guinea, Argentina, Chile, and Brazil."
+msgstr ""
+
+#: ../../docs/Week-01-Araucaria.rst:9
+msgid "The prompt"
+msgstr ""
+
+#: ../../docs/Week-01-Araucaria.rst:10
+msgid ""
+"`Araucária` was the very first prompt for the :doc:`index` project. The "
+"other options offered to `Régis Frias <https://github.com/regisfrias"
+"/dear-gen>`_ were spider web, and `oca indígena`. All three images came "
+"to my head during a train ride between Amsterdam and Rotterdam, while the"
+" idea for the project materialized."
+msgstr ""
+
+#: ../../docs/Week-01-Araucaria.rst:13
+msgid "The creative process"
+msgstr ""
+
+#: ../../docs/Week-01-Araucaria.rst:14
+msgid ""
+"When talking about generating tree with code, one is likely to come "
+"across `Lindenmayer systems, or L-systems "
+"<https://en.wikipedia.org/wiki/L-system>`_. Danniel Shifman has an "
+"`excellent tutorial <https://www.youtube.com/watch?v=E1B4UoSQMFw>`_ on "
+"the subject, which is a great way to familiarize yourself with L-systems "
+"and their possibilities. I was not able to find any L-system remotely "
+"close to the araucária image I wanted, and quickly gave up trying to come"
+" up with a set of productions to achieve that. The next idea I explored "
+"was to use polynomial curves to draw branches, and use a mere circle to "
+"represent the leaves."
+msgstr ""
+
+#: ../../docs/Week-01-Araucaria.rst:20
+msgid ""
+"Once the basic shape seemed ok, the next step was to create several "
+"copies of it, and somehow distribute them on the canvas."
+msgstr ""
+

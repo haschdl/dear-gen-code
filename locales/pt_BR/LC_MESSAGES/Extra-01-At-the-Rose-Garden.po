@@ -1,0 +1,75 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Half Scheidl
+# This file is distributed under the same license as the Dear Gen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dear Gen \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:2
+msgid "At the rose garden"
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:4
+msgid "This composition is part of the :doc:`index` project."
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:6
+msgid "|image0|"
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:9
+msgid "Water color effect"
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:11
+msgid ""
+"*At the rose garden* was an experiment with the ideas presented by artist"
+" Tyler Hobbs in his article *A generative approach to simulating "
+"watercolor paints* [1]_. The idea of the algorithm is to draw a polygon, "
+"for example a decahedron, and replace each side AB with two new segments,"
+" AC' and C'B, where C' is a point around the midpoint C between A an B. "
+"Taylor uses the Gaussian distribution to determine C' from C, meaning "
+"most points will be very close to C, and a few will be very distant from "
+"C, causing an organic feel to the distortion."
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:20
+msgid "How the algorithm works. (C) Tyler Hobbs [1]_"
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:23
+msgid "|figure1|"
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:23
+msgid "|figure2|"
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:24
+msgid "|figure3|"
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:24
+msgid "|figure4|"
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:27
+msgid "The :code:`deformBlob()` is an implementation of the algorithm above."
+msgstr ""
+
+#: ../../docs/Extra-01-At-the-Rose-Garden.rst:69
+msgid "http://www.tylerlhobbs.com/writings/watercolor"
+msgstr ""
+

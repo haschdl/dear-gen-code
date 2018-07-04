@@ -1,0 +1,71 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018, Half Scheidl
+# This file is distributed under the same license as the Dear Gen package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Dear Gen \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-15 22:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: ../../docs/Week-03-Palha.rst:3
+msgid "Palha"
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:6
+msgid "Page name: {{ pagename }}"
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:9
+msgid "{{ row_count['Week-03-Palha'] }}"
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:11
+#, python-format
+msgid "{% for r in row_count %} * {{ r }} {% endfor %}"
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:18
+msgid "|image0|"
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:22
+msgid ""
+"*Palha* is Portuguese for hay, and in the Brazil's southeast region it is"
+" an epitome of the \"caipira\", a person from the countryside, usually a "
+"rural worker, who wears an unsophisticated form of hay hat to protect "
+"from the sun. As rural populations decreased, the usage of term was "
+"expanded to refer also to an urban citizen of smaller cities."
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:28
+msgid "The creative process"
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:29
+msgid ""
+"My initial idea was a simple weave pattern, by drawing vertical and "
+"horizontal bands."
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:33
+msgid "The algorithm"
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:34
+msgid "To mimic a fibery-like"
+msgstr ""
+
+#: ../../docs/Week-03-Palha.rst:37
+msgid "I split the drawing into two parts, vertical and horizontal"
+msgstr ""
+
