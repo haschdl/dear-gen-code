@@ -2,6 +2,6 @@
 Roof *Telhado*
 ==============
 
-|image0|
+.. figure:: assets/07-stockholm.jpg
 
-.. |image0| image:: assets/07-stockholm.png
+    The final image for prompt Roof (Telhado).

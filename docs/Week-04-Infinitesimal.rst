@@ -1,6 +1,6 @@
-Infinitesimal
-=============
+Infinitesimal *Infinitesimal*
+=============================
 
-|image0|
+.. figure:: /assets/04-stockholm.jpg
 
-.. |image0| image:: /assets/04-stockholm.jpg
+    The final image for prompt Infinitesimal (Infinitesimal).

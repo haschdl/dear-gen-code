@@ -1,7 +1,7 @@
-========
-Alfabeto
-========
+===================
+Alphabet *Alfabeto* 
+===================
 
-|image0|
+.. figure:: assets/05-stockholm.jpg
 
-.. |image0| image:: assets/05-stockholm.jpg
+    The final image for prompt Alphabet (Alfabeto).

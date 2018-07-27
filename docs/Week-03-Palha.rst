@@ -1,6 +1,6 @@
-=====
-Palha
-=====
+===========
+Hay *Palha*
+===========
 
 
 Page name: {{ pagename }}  

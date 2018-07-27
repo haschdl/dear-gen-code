@@ -2,6 +2,6 @@
 Flow *Fluxo*
 ============
 
-|image0|
+.. figure:: assets/06-stockholm.png
 
-.. |image0| image:: assets/06-stockholm.png
+    The final image for prompt Flow (Fluxo).
