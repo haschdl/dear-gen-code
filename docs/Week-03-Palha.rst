@@ -2,22 +2,9 @@
 Hay *Palha*
 ===========
 
+.. figure:: /assets/03-stockholm.png
 
-Page name: {{ pagename }}  
-
-
-{{ row_count['Week-03-Palha'] }}
-
-{% for r in row_count %}
-* {{ r }} 
-{% endfor %}
-
-
-
-
-|image0|
-
-.. |image0| image:: assets/03-stockholm.png
+    The final image for prompt Hay (Palha).
 
 *Palha* is Portuguese for hay, and in the Brazil's southeast region it is an epitome of the "caipira", 
 a person from the countryside, usually a rural worker, who wears an unsophisticated form of hay hat to
