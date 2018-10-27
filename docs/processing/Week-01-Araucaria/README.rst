@@ -1,7 +1,7 @@
 Araucaria *Araucária*
 =====================
 
-.. figure:: assets/01-sto-araucaria-medium.png
+.. figure:: ../../assets/01-sto-araucaria-medium.png
 
     Araucária (Araucaria)
 
@@ -23,7 +23,7 @@ When talking about generating tree with code, one is likely to come across `Lind
 I was not able to find any L-system remotely close to the araucária image I wanted, and quickly gave up trying to come up with a set of productions to achieve that. 
 The next idea I explored was to use polynomial curves to draw branches, and use a mere circle to represent the leaves.  
 
-.. figure:: assets/tree-1.png
+.. figure:: ../../assets/tree-1.png
 
     The basic shape of a single tree in the composition
 

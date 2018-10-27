@@ -28,7 +28,7 @@ Contents
    :glob:
    :caption: The drawings
 
-   Week*
+   processing/**
 
 
 

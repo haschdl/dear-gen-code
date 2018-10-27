@@ -34,7 +34,8 @@ def setup(app):
     app.connect("source-read", rstjinja)
 
 # -- Half Scheidl, custom functions for Dear Gen
-import glob
+
+""" import glob
 from os.path import dirname,abspath,basename
 parent = dirname(dirname(abspath(__file__)))
 source = parent + "\source\**\*.pde"
@@ -63,7 +64,7 @@ for f in glob.glob(source,recursive=True):
 html_context = {
     'row_count': row_count
 }
-
+ """
 
 # -- Project information -----------------------------------------------------
 
