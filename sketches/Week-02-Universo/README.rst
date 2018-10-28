@@ -3,7 +3,7 @@ Universe *Universo*
 
    This composition is part of the :doc:`index` project.
 
-.. figure:: ../../assets/03-sto-universo-2000.jpg
+.. figure:: ../assets/03-sto-universo-2000.jpg
 
     Universo
 
@@ -40,7 +40,7 @@ smaller. The algorithm is as follows (:numref:`Fig %s <02-goldenrect-02>`):
 6. Repeat steps 2-5 until ``s`` is very small
 
 .. _02-goldenrect-02:
-.. figure:: ../../assets/02-goldenrect-02.png
+.. figure:: ../assets/02-goldenrect-02.png
 
     Drawing the golden rectangle and its subdivisions.
 

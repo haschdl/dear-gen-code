@@ -8,11 +8,11 @@ Gallery
     ==== ======================================================  ========= ====  ============================================================== =========
     Week Theme                                                   Teaser    Week  Theme                                                          Teaser  
     ---- ------------------------------------------------------  --------- ----  -------------------------------------------------------------- ---------
-    01   :doc:`Araucaria <processing/Week-01-Araucaria/README>`  |image01| 02    :doc:`Universe <processing/Week-02-Universo/README>`           |image02|
-    03   :doc:`Hay <processing/Week-03-Palha/README>`            |image03| 04    :doc:`Infinitesimal <processing/Week-04-Infinitesimal/README>` |image04|
-    05   :doc:`Alphabet <processing/Week-05-Alfabeto/README>`    |image05| 06    :doc:`Flow <processing/Week-06-Fluxo/README>`                  |image06|
-    07   :doc:`Roof <processing/Week-07-Telhado/README>`         |image07| 08    :doc:`Birth <processing/Week-08-Nascimento/README>`            |image08|
-    09   :doc:`Pantanal <processing/Week-09-Pantanal/README>`    |image09| 10    :doc:`Outono <processing/Week-10-Outono/README>`               |image10|
+    01   :doc:`Araucaria <Week-01-Araucaria/README>`             |image01| 02    :doc:`Universe <Week-02-Universo/README>`                      |image02|
+    03   :doc:`Hay <Week-03-Palha/README>`                       |image03| 04    :doc:`Infinitesimal <Week-04-Infinitesimal/README>`            |image04|
+    05   :doc:`Alphabet <Week-05-Alfabeto/README>`               |image05| 06    :doc:`Flow <Week-06-Fluxo/README>`                             |image06|
+    07   :doc:`Roof <Week-07-Telhado/README>`                    |image07| 08    :doc:`Birth <Week-08-Nascimento/README>`                       |image08|
+    09   :doc:`Pantanal <Week-09-Pantanal/README>`               |image09| 10    :doc:`Outono <Week-10-Outono/README>`                          |image10|
     ==== ======================================================  ========= ====  ============================================================== =========
 
 
