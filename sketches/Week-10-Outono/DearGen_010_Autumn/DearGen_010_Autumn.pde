@@ -1,9 +1,17 @@
+/**
+ * [master f36b716]: Basic drawing with circles
+ * Inspiration for flower equation: http://mathworld.wolfram.com/CannabisCurve.html
+ * 
+ */
+
+PGraphics buffer;
+
 class  Params {
-  float r0 = 30;
+  float r0 = 50;
   float noise_f = 1.0;
 
-  float resolution = 300;
-  int iterations = 200;
+  float resolution = 200;
+  int iterations = 50;
 }
 
 Params param = new Params();
@@ -11,67 +19,79 @@ Params param = new Params();
 
 void setup() {
   size(800, 600, P2D);
-  background(255);
+  colorMode(HSB);
+
   noStroke();
 }
 
 //Summer colors: https://coolors.co/e28413-f56416-dd4b1a-ef271b-ea1744
-int[] palette = new int[]{ 0xFFE28413, 0xFFF56416, 0xFFDD4B1A, 0xFFEF271B, 0xFFEA1744 };
+int[] palette = new int[]{ 0xFFE28413, 0xFFF56416, 0xFFDD4B1A, 0xFFEF271B, 0xFFEA1744, 
+  //https://coolors.co/a25a0f-d61013-920014-c50017-bf0037
+  0xFFA25A0F, 0xFFD61013, 0xFF920014, 0xFFC50017, 0xFFBF0037 
+};
 
+void draw() { 
 
-void draw() {
+  //float x = random(1) * (width);
+  //float y = random(1) * (height);
 
-  float x = random(width);
-  float y = random(height);
-  float angle = random(TWO_PI);
+  float x = (frameCount % (width / param.r0))  * param.r0;
+  float y = random(1) * (height);
+
+  float angle = random(-HALF_PI, HALF_PI);
+
+  int e = int(map(y, 0, height, 1, 5));
+  float alpha = map(y, 0, height, 5, 240);
+
+  //using random: produced "clusters" with the same colors
+  //not very pleasing
+  //int fillCol = palette[int(random(palette.length))];
+
+  //alternating colors according to frame count
+  //this produced a more distributed color palette 
+  int fillCol = palette[frameCount % palette.length];
+
 
   translate(x, y);
   rotate(angle);  
-  leaf();
+  leaf(e, fillCol, alpha);
 
-  if (frameCount > param.iterations)
-    noLoop();
+  if (frameCount % param.iterations == 0) {
+    saveScreen();
+    background(255);
+  }
 }
 
 
-void leaf() {
-  ArrayList<PVector> points = polygon(param.r0, param.resolution, .66);
-  fill(palette[int(random(palette.length))], 200);
+void leaf(int e, int fillCol, float alpha) {
+  ArrayList<PVector> points = polygon(param.r0, param.resolution, e);
+  fill(fillCol, alpha);
   beginShape();
   for (PVector p : points) 
-    vertex(p.x, p.y); 
-
+    curveVertex(p.x, p.y); 
   endShape(CLOSE);
 }
 
-PVector path(float a, float radius, float e) {
-  //e: eccentricity of the ellipse
-  float p =  a*5;
-  float r = (e * p) /(1 - e * cos(a));
-  float sx =  + cos(a) * r;
-  float sy =  + sin(a) * r;
-  return new PVector(sx, sy);
-}
 
-
-ArrayList<PVector> polygon(float radius, float resolution, float  e) {
+ArrayList<PVector> polygon(float radius, float resolution, int  e) {
   //e: eccentricity of the ellipse
-  float angle = TWO_PI / resolution ;
+  float step = TWO_PI / resolution ;
   ArrayList<PVector> points = new ArrayList<PVector>();
-  float a = 0;
+  float theta = 0;
+  float a = 1; 
+  float b = .162; 
+  float c = .13; 
+  float d = 27.54;
+
+
   for (int i = 0; i <= resolution; i++ ) { 
-    a += angle;
-    float radius_offset = 1 ; // #a*.9    
-    PVector t = path(a, radius, e);
 
-    float p =  radius + radius_offset;
-    float r = (e * p) /(1 - e * cos(a));
-    r = (e * p) /(1 - e * pow(sin(a), 4)*cos(a*3)  + noise(a));
-    float sx =  + cos(a) * r;
-    float sy =  + sin(a) * r;
-
+    float r = radius * a * (1 + b * cos(8*theta))*(e + c * cos(24* theta))
+      *(.2 + .1 * cos(0 * theta))*(1+sin(theta));
+    float sx =  + cos(theta) * r;
+    float sy =  - sin(theta) * r;
+    theta += step;
     points.add(new PVector(sx, sy));
-    //points.add(new PVector(sx +(1 -2*noise(radius/10 + 123232)/param.noise_f)* t.x, sy +(1 - 2*noise(a*radius+878763)/param.noise_f) * t.y));
   }
   return points;
 }
