@@ -25,11 +25,13 @@ class MyCurve {
 
   void draw(PGraphics target) {
     target.curveTightness(tightness);
-    target.fill((fillColor & 0xffffff) | (int(transp) << 24)); 
+
     target.beginShape();
     for (int j = 0; j < points.size(); j++) {
       PVector p = points.get(j);
-      //ellipse(p.x, p.y, 10, 10);
+      target.fill(0);
+      target.ellipse(p.x, p.y, 5, 5);
+      target.fill((fillColor & 0xffffff) | (int(transp) << 24));
       target.curveVertex(p.x, p.y);
     }
     target.endShape();

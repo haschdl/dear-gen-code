@@ -1,7 +1,3 @@
-
-
-
-
 /* 
  import pLaunchController.*;
  LaunchController controller;
@@ -90,19 +86,4 @@ void draw() {
 
   buffer.endDraw();
   image(buffer, 0, 0, width, height);
-}
-
-
-public void mousePressed(MouseEvent evt) {
-  MyCurve lastCurve = curves.get(curves.size()-1);
-  if (mouseButton == CENTER) {
-
-    lastCurve.points.add(lastCurve.points.get(1).copy());
-    lastCurve.points.add(lastCurve.points.get(1).copy());
-  } else  if (mouseButton == LEFT) {
-  } else if (mouseButton == RIGHT) {
-
-    int nextColor = palette[(int)random(palette.length)];
-    curves.add(new MyCurve( new PVector(100, 100), 15, nextColor ));
-  }
 }

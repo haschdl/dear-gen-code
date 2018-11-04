@@ -1,31 +1,32 @@
-Dear Gen
-________
+About
+_____
 
-A generative postal art project
+Dear Gen is a collaborative project in generative art, initiated by `Half Scheidl <https://github.com/haschdl>`_ 
+and `Régis Frias <http://regisfrias.com/>`_. It is as a series of weekly drawing challenges, meant to be sent 
+by mail (the postal service, that is).
 
-This project was inspired by `Dear Data <http://www.dear-data.com/>`_ and conceived by `Half Scheidl <https://github.com/haschdl>`_. 
-It is as a series of weekly challenges meant to be sent by mail (the postal service, that is).
+Every monday we take turns in selecting a design prompt, a one-word idea which evolves into a digital drawing, 
+and it is then posted by mail within exactly one week. We will be publishing the source code for the previous 
+week as soon as both of us have received the card at our homes. All drawings are made with Processing [1]_.
 
-Every monday we take turns in selecting a design prompt, a one-word idea which evolves into a digital drawing, and it is then posted 
-by mail within exactly one week. We will be publishing the source code for the previous week as soon as both of us have received the 
-card at our homes. All drawings are made with Processing [1]_.
+The project draws inspiration from the beautiful `Dear Data <http://www.dear-data.com/>`_ project, by information 
+designers Georgia Lupi and Stefanie Posavec.  
 
+For a quick overview of the generated images, check :doc:`Gallery`. 
 
-Contents
---------
 
 .. toctree::
    :maxdepth: 2
-   :glob:
+   :hidden:
    
    self
    Gallery
 
 
-
 .. toctree::
    :maxdepth: 1
    :glob:
+   :hidden:
    :caption: The drawings
 
    Week**
@@ -36,9 +37,9 @@ Contents
    :maxdepth: 2
    :glob:
    :caption: Appendices
+   :hidden:
 
-   Techniques
-   Printing
+   appendices/index
 
 
 

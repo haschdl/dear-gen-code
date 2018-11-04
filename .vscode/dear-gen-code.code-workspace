@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "C:\\CreativeCoding\\Github\\dear-gen-code"
+		}
+   ],
+   "settings": {
+      "pasteImage.basePath": "${projectRoot}",
+      "pasteImage.path": "${projectRoot}/sketches/assets/"
+   }
+}

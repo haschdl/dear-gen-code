@@ -72,6 +72,7 @@ project = 'Dear Gen'
 copyright = '2018, Half Scheidl'
 author = 'Half Scheidl'
 
+
 # The short X.Y version
 version = ''
 # The full version, including alpha/beta/rc tags
@@ -132,6 +133,9 @@ numfig = True
 # a list of builtin themes.
 # Was: alabaster
 html_theme = 'sphinx_rtd_theme'
+
+# show_sphinx = False turns off the message "Built with Sphinx with bla bla"
+html_show_sphinx = False
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -221,3 +225,14 @@ texinfo_documents = [
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+rst_epilog = """
+.. |p_noise| replace:: `noise()`_
+.. _noise(): https://processing.org/reference/noise_.html
+
+.. |p_curveVertex| replace:: `curveVertex()`_
+.. _curveVertex(): https://processing.org/reference/curveVertex_.html
+
+
+
+"""
