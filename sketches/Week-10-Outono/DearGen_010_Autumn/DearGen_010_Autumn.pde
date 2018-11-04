@@ -1,5 +1,6 @@
 /**
  * [master f36b716]: Basic drawing with circles
+ * [master fbc4f8a]: Random positions
  * Inspiration for flower equation: http://mathworld.wolfram.com/CannabisCurve.html
  * 
  */
@@ -7,69 +8,84 @@
 PGraphics buffer;
 
 class  Params {
-  float r0 = 50;
+  float r0 = 60;
   float noise_f = 1.0;
 
   float resolution = 200;
-  int iterations = 50;
+  int iterations = 203;
 }
 
 Params param = new Params();
 
 
 void setup() {
-  size(800, 600, P2D);
-  colorMode(HSB);
+  size(900, 600, P2D);
+
+  buffer = createGraphics(1500, 1000, P2D);
+  buffer.beginDraw();
+  buffer.background(255);
+  buffer.endDraw();
 
   noStroke();
 }
 
-//Summer colors: https://coolors.co/e28413-f56416-dd4b1a-ef271b-ea1744
-int[] palette = new int[]{ 0xFFE28413, 0xFFF56416, 0xFFDD4B1A, 0xFFEF271B, 0xFFEA1744, 
-  //https://coolors.co/a25a0f-d61013-920014-c50017-bf0037
-  0xFFA25A0F, 0xFFD61013, 0xFF920014, 0xFFC50017, 0xFFBF0037 
+//Autumn colors from picture: https://coolors.co/a4ae99-d9bca1-913641-9e8bb3-c6a74a
+int[] palette = new int[]{ 0xFFCF8840, 0xFF8D2538, 0xFF6C3C25, 0xFFFEAE5D, 0xFFBB4D1A, 
+  0xFFBF4342, 0xFF8C1C13, 0xFFEB803C, 0xFFCD7B31
+
 };
 
-void draw() { 
+void draw() {
+  //a little hack to move the composition a litte up
+  buffer.beginDraw();
 
-  //float x = random(1) * (width);
-  //float y = random(1) * (height);
+  buffer.smooth();
+  //buffer.strokeWeight(2);
+  buffer.noStroke();
+  buffer.translate(0, -.5 * param.r0);
 
-  float x = (frameCount % (width / param.r0))  * param.r0;
-  float y = random(1) * (height);
+  float  n_x = (buffer.width / param.r0) ;
+  float x = (frameCount % n_x) * param.r0 *1.5;
+  float y = (frameCount% param.iterations) / int(n_x) * param.r0 * (2 + noise(frameCount));
 
-  float angle = random(-HALF_PI, HALF_PI);
+  //rotating a little bit every frame. 
+  //cossine is just make "angle" alternate between positive and negative numbers  
+  float angle = cos(frameCount* PI)* random(.15*PI);
 
-  int e = int(map(y, 0, height, 1, 5));
-  float alpha = map(y, 0, height, 5, 240);
+  //a larger e makes the leafs bigger, and less detailed. 
+  int e = int(random(3, 5)); //int(map(y, 0, height, 1, 5));
+  float alpha = 200; //map(y, 0, height, 5, 240);
 
-  //using random: produced "clusters" with the same colors
-  //not very pleasing
-  //int fillCol = palette[int(random(palette.length))];
 
   //alternating colors according to frame count
   //this produced a more distributed color palette 
   int fillCol = palette[frameCount % palette.length];
 
 
-  translate(x, y);
-  rotate(angle);  
+  buffer.translate(x, y);
+  buffer.rotate(angle);  
   leaf(e, fillCol, alpha);
 
+  buffer.endDraw();
+  image(buffer, 0, 0, width, height);
+
   if (frameCount % param.iterations == 0) {
-    saveScreen();
-    background(255);
+
+    saveBuffer();
+    buffer.beginDraw();
+    buffer.background(255);
+    buffer.endDraw();
   }
 }
 
 
 void leaf(int e, int fillCol, float alpha) {
   ArrayList<PVector> points = polygon(param.r0, param.resolution, e);
-  fill(fillCol, alpha);
-  beginShape();
+  buffer.fill(fillCol, alpha);
+  buffer.beginShape();
   for (PVector p : points) 
-    curveVertex(p.x, p.y); 
-  endShape(CLOSE);
+    buffer.curveVertex(p.x, p.y); 
+  buffer.endShape(CLOSE);
 }
 
 
