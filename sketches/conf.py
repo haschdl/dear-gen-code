@@ -30,6 +30,11 @@ def rstjinja(app, docname, source):
     )
     source[0] = rendered
 
+
+#See http://www.sphinx-doc.org/en/master/usage/extensions/extlinks.html#module-sphinx.ext.extlinks
+extlinks = {'commit': ('https://github.com/haschdl/dear-gen-code/commit/%s',
+                      'commit ')}
+
 def setup(app):
     app.connect("source-read", rstjinja)
 
@@ -96,6 +101,7 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'sphinx.ext.extlinks'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
