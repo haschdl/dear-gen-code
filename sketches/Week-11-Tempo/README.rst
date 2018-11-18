@@ -11,7 +11,7 @@ Inspiration
 ^^^^^^^^^^^
 
 I remembered a recent tutorial on visualizing the double-pendulum equations, by Daniel Shiffman,
-and decided I could use it as a starting point (see :commit:`05c8895`).
+and decided I could use it as a starting point (see :commit:`aaed88f`).
 
 .. figure:: ../assets/11-double-pendulum.png
 

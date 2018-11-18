@@ -81,9 +81,17 @@ void draw() {
   //canvas.background(0, 1);
   canvas.translate(cx, cy);
   canvas.stroke(0);
+  if (frameCount % 35 == 0)
+    canvas.beginShape();
   if (frameCount > 1) {
-    canvas.line(px2, py2, x2, y2);
+    //canvas.line(px2, py2, x2, y2);
+    //canvas.line(px2, py2, x2, y2);
+    canvas.vertex(px2, py2);
+    canvas.vertex(x2, y2);
   }
+  if (frameCount % 36 == 0)
+    canvas.endShape(CLOSE);
+
   canvas.endDraw();
 
 
