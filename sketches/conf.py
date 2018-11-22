@@ -142,12 +142,17 @@ html_theme = 'sphinx_rtd_theme'
 
 # show_sphinx = False turns off the message "Built with Sphinx with bla bla"
 html_show_sphinx = False
+html_logo = 'assets/DearGenLogo.png'
+
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False,
+}
 
 locale_dirs = ['../locales/']   # path is example but recommended.
 gettext_compact = False     # optional.

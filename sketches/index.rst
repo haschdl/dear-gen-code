@@ -1,18 +1,37 @@
-About
-_____
+Gallery
+=======
 
-Dear Gen is a collaborative project in generative art, initiated by `Half Scheidl <https://github.com/haschdl>`_ 
-and `Régis Frias <http://regisfrias.com/>`_. It is as a series of weekly drawing challenges, meant to be sent 
-by mail (the postal service, that is).
 
-Every monday we take turns in selecting a design prompt, a one-word idea which evolves into a digital drawing, 
-and it is then posted by mail within exactly one week. We will be publishing the source code for the previous 
-week as soon as both of us have received the card at our homes. All drawings are made with Processing [1]_.
 
-The project draws inspiration from the beautiful `Dear Data <http://www.dear-data.com/>`_ project, by information 
-designers Georgia Lupi and Stefanie Posavec.  
 
-For a quick overview of the generated images, check :doc:`Gallery`. 
+.. table::
+    :widths: auto
+
+    ==== ======================================================  ========= ====  ============================================================== =========
+    Week Theme                                                   Teaser    Week  Theme                                                          Teaser  
+    ---- ------------------------------------------------------  --------- ----  -------------------------------------------------------------- ---------
+    01   :doc:`Araucaria <Week-01-Araucaria/README>`             |image01| 02    :doc:`Universe <Week-02-Universo/README>`                      |image02|
+    03   :doc:`Hay <Week-03-Palha/README>`                       |image03| 04    :doc:`Infinitesimal <Week-04-Infinitesimal/README>`            |image04|
+    05   :doc:`Alphabet <Week-05-Alfabeto/README>`               |image05| 06    :doc:`Flow <Week-06-Fluxo/README>`                             |image06|
+    07   :doc:`Roof <Week-07-Telhado/README>`                    |image07| 08    :doc:`Birth <Week-08-Nascimento/README>`                       |image08|
+    09   :doc:`Pantanal <Week-09-Pantanal/README>`               |image09| 10    :doc:`Outono <Week-10-Outono/README>`                          |image10|
+    11   :doc:`Time <Week-11-Tempo/README>`                      |image11| 12    :doc:`Music <Week-12-Musica/README>`                           |image12|
+    ==== ======================================================  ========= ====  ============================================================== =========
+
+
+.. |image01| image:: assets/01-sto-araucaria-small.png
+.. |image02| image:: assets/03-sto-universo-small.png
+.. |image03| image:: assets/03-stockholm-200.png
+.. |image04| image:: assets/04-stockholm-200.png
+.. |image05| image:: assets/05-stockholm-200.png
+.. |image06| image:: assets/06-stockholm-200.png
+.. |image07| image:: assets/07-stockholm-200.png
+.. |image08| image:: assets/08-stockholm-200.png
+.. |image09| image:: assets/09-stockholm-200.jpg
+.. |image10| image:: assets/10-stockholm-200.jpg
+.. |image11| image:: assets/11-stockholm-200.jpg
+.. |image12| image:: assets/12-stockholm-200.jpg
+
 
 
 .. toctree::
@@ -20,9 +39,8 @@ For a quick overview of the generated images, check :doc:`Gallery`.
    :hidden:
    
    self
-   Gallery
-
-
+   about
+   
 .. toctree::
    :maxdepth: 1
    :glob:
@@ -40,9 +58,3 @@ For a quick overview of the generated images, check :doc:`Gallery`.
    :hidden:
 
    appendices/index
-
-
-
-.. [1] 
-    Processing is a software sketchbook and a language for learning how to code within the context of the visual arts. If you're not
-    familiar with Processing check the intro video at `processing.org <https://processing.org/>`_.
