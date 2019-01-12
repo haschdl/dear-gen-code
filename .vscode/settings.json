@@ -1,5 +1,0 @@
-{
-   "python.linting.pylintEnabled": false,
-   "restructuredtext.confPath": "${workspaceFolder}\\source",
-   "python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python36_64\\python.exe"
-}
