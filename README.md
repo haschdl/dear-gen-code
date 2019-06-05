@@ -73,16 +73,16 @@ We are writing about each challenge as we go and the compiled text can be found 
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/10-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/10-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/10-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/10-helsinki-s.jpg)](sketches/helsinki/Week-10/) 	|
 
 ### Week 11: Tempo
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/11-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/11-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/11-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/11-helsinki-s.jpg)](sketches/helsinki/Week-11/) 	|
 
 ### Week 12: Música
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/12-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/12-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/12-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/12-helsinki-s.jpg)](sketches/helsinki/Week-12/) 	|
