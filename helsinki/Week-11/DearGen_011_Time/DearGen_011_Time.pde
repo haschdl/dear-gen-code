@@ -30,7 +30,7 @@ void draw(){
   xenakis(0, height/2, width, height/2, true);
   xenakis(0, height/2, width, -height/2, true);
   
-  //saveFrame("saved-png/" + year() + "-" + month() + "-" + day() + "-" + hour() + "-" + minute() + "-" + second() + "-xenakis.png");
+  //saveFrame("saved-png/" + year() + "-" + month() + "-" + day() + "-" + hour() + "-" + minute() + "-" + second() + "-time.png");
 }
 
 void xenakis(float startX, float startY, float sizeX, float sizeY, boolean blend){
