@@ -93,8 +93,8 @@ We are writing about each challenge as we go and the compiled text can be found 
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
 | [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/13-helsinki-s.jpg)](helsinki/Week-13/) 	|
 
-### Week 14: Pixel
+### Week 14: Pixel(s)
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/13-helsinki-s.jpg)](helsinki/Week-13/) 	|
+| [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/14-helsinki-s.jpg)](helsinki/Week-14/) 	|
