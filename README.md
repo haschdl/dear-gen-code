@@ -86,3 +86,9 @@ We are writing about each challenge as we go and the compiled text can be found 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
 | [![](img/12-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/12-helsinki-s.jpg)](sketches/helsinki/Week-12/) 	|
+
+### Week 13: Água
+
+| Stockholm                                                                	| Helsinki                                                 	|
+|--------------------------------------------------------------------------	|----------------------------------------------------------	|
+| [![](img/12-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/13-helsinki-s.jpg)](sketches/helsinki/Week-13/) 	|
