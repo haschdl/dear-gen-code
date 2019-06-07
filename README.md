@@ -85,16 +85,34 @@ We are writing about each challenge as we go and the compiled text can be found 
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/12-helsinki-s.jpg)](helsinki/Week-12/) 	|
+| [![](img/12-stockholm-s.jpg)](stockholm/Week-12-Musica/)     	| [![](img/12-helsinki-s.jpg)](helsinki/Week-12/) 	|
 
 ### Week 13: Água
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/13-helsinki-s.jpg)](helsinki/Week-13/) 	|
+| [![](img/13-stockholm-s.png)](stockholm/Week-13-Water/)     	| [![](img/13-helsinki-s.jpg)](helsinki/Week-13/)                   	|
 
 ### Week 14: Pixel(s)
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/14-helsinki-s.jpg)](helsinki/Week-14/) 	|
+| [![](img/14-stockholm-s.jpg)](stockholm/Week-14-Pixel/)                	| [![](img/14-helsinki-s.jpg)](helsinki/Week-14/)       	|
+
+### Week 15: Spring
+
+| Stockholm                                                                	| Helsinki                                                 	|
+|--------------------------------------------------------------------------	|----------------------------------------------------------	|
+| [![](img/15-stockholm-s.jpg)](stockholm/Week-15-Spring/)               	| [![](img/15-helsinki-s.jpg)](helsinki/Week-15/)        	|
+
+### Week 16: Movement
+
+| Stockholm                                                                	| Helsinki                                                 	|
+|--------------------------------------------------------------------------	|----------------------------------------------------------	|
+| [![](img/16-stockholm-s.jpg)](stockholm/Week-16-Movement/)               	| [![](img/16-helsinki-s.jpg)](helsinki/Week-16/)        	|
+
+### Week 16: Mirror
+
+| Stockholm                                                                	| Helsinki                                                 	|
+|--------------------------------------------------------------------------	|----------------------------------------------------------	|
+| [![](img/17-stockholm-s.jpg)](stockholm/Week-17-Movement/)               	| [![](img/17-helsinki-s.jpg)](helsinki/Week-17/)        	|
