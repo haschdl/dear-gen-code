@@ -13,7 +13,7 @@ We are writing about each challenge as we go and the compiled text can be found 
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/01-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/01-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/01-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/01-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 
 ### Week 2: Universo
@@ -21,45 +21,45 @@ We are writing about each challenge as we go and the compiled text can be found 
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/02-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/02-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/02-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/02-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 ### Week 3: Palha
 
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/03-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/03-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/03-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/03-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 
 ### Week 4: Infinitesimal
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/04-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/04-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/04-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/04-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 ### Week 5: Alfabeto
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/05-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/05-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/05-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/05-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 ### Week 6: Fluxo
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/06-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/06-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/06-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/06-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 ### Week 7: Telhado
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/07-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/07-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/07-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/07-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 ### Week 8: Nascimento
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/08-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/08-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/08-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/08-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 
 
@@ -67,22 +67,34 @@ We are writing about each challenge as we go and the compiled text can be found 
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/09-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/09-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/09-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/09-helsinki-s.jpg)](helsinki/Week-01/) 	|
 
 ### Week 10: Outono
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/10-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/10-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/10-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/10-helsinki-s.jpg)](helsinki/Week-10/) 	|
 
 ### Week 11: Tempo
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/11-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/11-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/11-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/11-helsinki-s.jpg)](helsinki/Week-11/) 	|
 
 ### Week 12: Música
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
-| [![](img/12-stockholm-s.jpg)](sketches/stockholm/Week-01-Araucaria/)     	| [![](img/12-helsinki-s.jpg)](sketches/helsinki/Week-01/) 	|
+| [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/12-helsinki-s.jpg)](helsinki/Week-12/) 	|
+
+### Week 13: Água
+
+| Stockholm                                                                	| Helsinki                                                 	|
+|--------------------------------------------------------------------------	|----------------------------------------------------------	|
+| [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/13-helsinki-s.jpg)](helsinki/Week-13/) 	|
+
+### Week 14: Pixel(s)
+
+| Stockholm                                                                	| Helsinki                                                 	|
+|--------------------------------------------------------------------------	|----------------------------------------------------------	|
+| [![](img/12-stockholm-s.jpg)](stockholm/Week-01-Araucaria/)     	| [![](img/14-helsinki-s.jpg)](helsinki/Week-14/) 	|
