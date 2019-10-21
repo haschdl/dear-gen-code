@@ -60,7 +60,8 @@ def main():
 
         # random stuff
         replaces = [ ("Long.signum", "Math.sign"),
-        ("new PVector", "new p5.Vector")]
+        ("new PVector", "new p5.Vector"),
+        ("(float)", "")]
         for a,b in replaces:
             code = code.replace(a,b)
 
