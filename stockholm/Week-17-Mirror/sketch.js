@@ -1,7 +1,7 @@
 function setup() {
-    createCanvas(750, 500);
-    smooth(8);
-    strokeWeight(.9);
+    createCanvas(1500, 1000, WEBGL);
+    smooth(32);
+    strokeWeight(2);
     rectMode(CENTER);
     background(255);
     stroke(color(0,9));
@@ -10,12 +10,12 @@ function setup() {
 
 
 function draw() {
-   reflection2();
+   reflection1();
 }
 
 
 function reflection1() {
-    translate(width/2,0);    
+    translate(0,-height/2);    
     beginShape();
     for(let i = 1; i <= 100; i++) {  
         let f =  1/pow(2,floor(i/2)*.02);
@@ -23,7 +23,7 @@ function reflection1() {
         let x =  xf * f * f* f * width /2;
         
         let y = [ height*(1-f), f*height, f*height,  height*(1-f)][i % 4];//(i % 3) * f * height;
-        let yy = y + random()*2;
+        let yy = y + random();
         let xx = x; 
         vertex(xx, yy);
     }

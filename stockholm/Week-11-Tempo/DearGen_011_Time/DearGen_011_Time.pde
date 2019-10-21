@@ -64,7 +64,7 @@ void draw() {
   float x2 = x1 + r2 * sin(a2);
   float y2 = y1 + r2 * cos(a2);
 
-
+/*
   line(0, 0, x1, y1);
   fill(0);
   ellipse(x1, y1, m1, m1);
@@ -72,7 +72,7 @@ void draw() {
   line(x1, y1, x2, y2);
   fill(0);
   ellipse(x2, y2, m2, m2);
-
+*/
   a1_v += a1_a;
   a2_v += a2_a;
   a1 += a1_v;
