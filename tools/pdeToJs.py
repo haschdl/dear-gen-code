@@ -1,23 +1,33 @@
 import re
-import sys
+import os
 import argparse
 
-
+parser = argparse.ArgumentParser()
 
 rgxDraw = [
     re.compile('(.*\.beginDraw\(\)\;)'),
-    re.compile('(.*\.beginDraw\(\)\;)')
+    re.compile('(.*\.endDraw\(\)\;)')
     ]
+
+
 
 rgxMethod = re.compile('[a-zA-Z]*\s*\(.*\)\s*{')
 
 regExLoops = [re.compile('for\s*\('), re.compile('if\s*\(')]
 
+
+def file_extension(choices,fname):
+    ext = os.path.splitext(fname)[1][1:]
+    if ext not in choices:
+       parser.error("file doesn't end with one of {}".format(choices))
+    return fname
+
 def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument('file_in', help='input file')
+    
+    parser.add_argument('file_in', help='input file', type=lambda s:file_extension(("pde","java"),s))
     parser.add_argument('file_out', help='output file')
     args = parser.parse_args()
+
 
     with open(args.file_in, 'r') as f, open(args.file_out, 'w') as o:
         code = f.read()
@@ -57,11 +67,20 @@ def main():
         for r  in rgxDraw:
             code = re.sub(r, r'/* \1 */', code)
 
+        # replaces Java hexadecimal number with quoted string
+        rgxColor = re.compile('(#......)')
+        code = re.sub(rgxColor, r'"\1"', code)
+
+        # replaces int/float array initialization
+        rgxArray = re.compile('new int\[\]{(.*)}')
+        code = re.sub(rgxArray, r'[\1]', code)
+
 
         # random stuff
         replaces = [ ("Long.signum", "Math.sign"),
         ("new PVector", "new p5.Vector"),
-        ("(float)", "")]
+        ("(float)", ""),
+        ("surface.setTitle(","document.title=")]
         for a,b in replaces:
             code = code.replace(a,b)
 
