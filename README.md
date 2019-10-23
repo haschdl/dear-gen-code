@@ -111,8 +111,15 @@ We are writing about each challenge as we go and the compiled text can be found 
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
 | [![](img/16-stockholm-s.jpg)](stockholm/Week-16-Movement/)               	| [![](img/16-helsinki-s.jpg)](helsinki/Week-16/)        	|
 
-### Week 16: Mirror
+### Week 17: Mirror
 
 | Stockholm                                                                	| Helsinki                                                 	|
 |--------------------------------------------------------------------------	|----------------------------------------------------------	|
 | [![](img/17-stockholm-s.jpg)](stockholm/Week-17-Movement/)               	| [![](img/17-helsinki-s.jpg)](helsinki/Week-17/)        	|
+
+
+### Week 18: Contrast
+
+| Stockholm                                                                	| Helsinki                                                 	|
+|--------------------------------------------------------------------------	|----------------------------------------------------------	|
+| [![](img/18-stockholm-s.jpg)](stockholm/Week-18-Contrast/)               	| [![](img/18-helsinki-s.jpg)](helsinki/Week-18/)        	|
