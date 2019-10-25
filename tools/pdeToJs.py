@@ -33,7 +33,7 @@ def main():
         code = f.read()
 
         # replace typed declarations (excluding function)
-        types = ['PGraphics', 'PVector', 'float', 'float[]', 'int', 'int[]']
+        types = ['PGraphics', 'PVector','PImage', 'float', 'float[]', 'int', 'int[]']
         
         matches = re.findall(rgxMethod, code)
         for m in matches:
@@ -80,6 +80,7 @@ def main():
         replaces = [ ("Long.signum", "Math.sign"),
         ("new PVector", "new p5.Vector"),
         ("(float)", ""),
+        ("size(", "createCanvas("),
         ("surface.setTitle(","document.title=")]
         for a,b in replaces:
             code = code.replace(a,b)
