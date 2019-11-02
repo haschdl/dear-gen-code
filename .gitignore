@@ -1,6 +1,3 @@
-.vscode/
-.vscode
-/.vscode/
 _build
 **/_build/html/*
 **/build/*

@@ -1,6 +1,13 @@
+import sys
 import re
 import os
+from pathlib import Path
+from shutil import copyfile
 import argparse
+import logging
+
+logging.getLogger(__name__)
+
 
 parser = argparse.ArgumentParser()
 
@@ -22,14 +29,8 @@ def file_extension(choices,fname):
        parser.error("file doesn't end with one of {}".format(choices))
     return fname
 
-def main():
-    
-    parser.add_argument('file_in', help='input file', type=lambda s:file_extension(("pde","java"),s))
-    parser.add_argument('file_out', help='output file')
-    args = parser.parse_args()
-
-
-    with open(args.file_in, 'r') as f, open(args.file_out, 'w') as o:
+def JavaToJavascript(file_in, file_out):
+    with open(file_in, 'r') as f, open(file_out, 'w') as o:
         code = f.read()
 
         # replace typed declarations (excluding function)
@@ -87,6 +88,37 @@ def main():
 
         #writes output
         o.writelines(code)
+
+
+def main():  
+    print("Running PDE conversion to P5JS")  
+    logging.basicConfig(level=logging.DEBUG,stream=sys.stdout)
+
+    parser.add_argument('file_in', help='input file', type=lambda s:file_extension(("pde","java"),s))
+    parser.add_argument('file_out', help='output file')
+    args = parser.parse_args()
+
+
+    # is PDE inside a sketch folder?
+    fileName = Path(args.file_in).stem
+    sourceFolder = Path(os.path.dirname(args.file_in))
+    folderName = sourceFolder.stem
+    convertFolder = False
+    if fileName == folderName:
+        convertFolder = True
+    
+    if convertFolder:
+        logging.info("The file %s is inside a Processing sketch", Path(args.file_in).stem)
+        dirName = "sketch-WIP"
+        outputLocation = os.path.join(sourceFolder.parent, dirName)
+        os.mkdir(outputLocation)
+        outputFile = os.path.join(outputLocation, "sketch.js")
+        JavaToJavascript(args.file_in,  outputFile)
+        # copies index.html to ouput
+        copyfile("index.html", os.path.join(outputLocation, "index.html"))
+
+
+    
 
 if __name__ == '__main__':
     main()
