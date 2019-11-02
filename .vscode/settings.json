@@ -1,0 +1,7 @@
+{
+"python.pythonPath": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\Python36_64\\python.exe",
+"jira-plugin.workingProject": "",
+"eslint.enable": true,
+"console": "internalConsole", 
+"outputCapture": "std",
+}
