@@ -82,7 +82,8 @@ def JavaToJavascript(file_in, file_out):
         ("new PVector", "new p5.Vector"),
         ("(float)", ""),
         ("size(", "createCanvas("),
-        ("surface.setTitle(","document.title=")]
+        ("surface.setTitle(","document.title="),
+        ("saveFrame(","save(")]
         for a,b in replaces:
             code = code.replace(a,b)
 
@@ -108,15 +109,24 @@ def main():
         convertFolder = True
     
     if convertFolder:
-        logging.info("The file %s is inside a Processing sketch", Path(args.file_in).stem)
+        logging.info("The file %s is inside a Processing sketch",fileName)
         dirName = "sketch-WIP"
         outputLocation = os.path.join(sourceFolder.parent, dirName)
         os.mkdir(outputLocation)
         outputFile = os.path.join(outputLocation, "sketch.js")
         JavaToJavascript(args.file_in,  outputFile)
+
+        for fileInFolder in os.listdir(sourceFolder):
+            base = Path(fileInFolder).stem
+            if fileInFolder.endswith(".pde") and base != fileName:
+                logging.info("Converting %s to Javascript", fileInFolder)
+                JavaToJavascript(os.path.join(sourceFolder,fileInFolder),  os.path.join(outputLocation, base + ".js"))
+        
         # copies index.html to ouput
         copyfile("index.html", os.path.join(outputLocation, "index.html"))
-
+    
+    else:
+        JavaToJavascript(args.file_in,  args.file_out)
 
     
 

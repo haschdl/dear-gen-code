@@ -12,7 +12,7 @@ class Bubble {
   boolean over = false;
   
   PVector[] positions;
-  color c = color(random(5, 30), random(5, 35), random(0, 25));
+  color c = color(random(5, 30), random(5, 35), random(0, 25),.02);
   
   Bubble(float x_, float y_, float radius_) {
     x = x_;
@@ -41,7 +41,7 @@ class Bubble {
     
     beginShape();
     if(radius > 0){
-      for(int i = 0; i < int(radius); i++){
+      for(int i = 0; i < int(radius); i+=10){
         curveVertex(positions[i].x, positions[i].y);
       }
     }
