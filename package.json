@@ -1,0 +1,32 @@
+{
+  "name": "dear-gen-code",
+  "version": "0.0.1",
+  "description": "Source-code for the Dear Gen project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haschdl/dear-gen-code.git"
+  },
+  "author": "Half Scheidl, Régis Frias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haschdl/dear-gen-code/issues"
+  },
+  "homepage": "https://github.com/haschdl/dear-gen-code#readme",
+  "dependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint-config-p5js": "^1.0.1"
+  }
+}

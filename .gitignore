@@ -8,3 +8,4 @@ _build
 **/out/*.tiff
 **/out/*.png
 **/out/*.jpg
+node_modules
