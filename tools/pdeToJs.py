@@ -59,7 +59,9 @@ def JavaToJavascript(file_in, file_out):
         # replace matrix operations
         code = code.replace('.pushMatrix()', '.push()')
         code = code.replace('.popMatrix()', '.pop()')
-
+        code = code.replace('.pushStyle()', '.push()')
+        code = code.replace('.popStyle()', '.pop()')
+        
         # replace console operations
         code = code.replace('println(', 'console.debug(')
 
@@ -83,7 +85,8 @@ def JavaToJavascript(file_in, file_out):
         ("(float)", ""),
         ("size(", "createCanvas("),
         ("surface.setTitle(","document.title="),
-        ("saveFrame(","save(")]
+        ("saveFrame(","save("),
+        ]
         for a,b in replaces:
             code = code.replace(a,b)
 
