@@ -34,7 +34,7 @@ def JavaToJavascript(file_in, file_out):
         code = f.read()
 
         # replace typed declarations (excluding function)
-        types = ['PGraphics', 'PVector','PImage', 'float', 'float[]', 'int', 'int[]']
+        types = ['PGraphics', 'PVector','PImage', 'float', 'float[]', 'int', 'int[]', 'String']
         
         matches = re.findall(rgxMethod, code)
         for m in matches:
@@ -86,6 +86,7 @@ def JavaToJavascript(file_in, file_out):
         ("size(", "createCanvas("),
         ("surface.setTitle(","document.title="),
         ("saveFrame(","save("),
+        ("P3D", "WEBGL")
         ]
         for a,b in replaces:
             code = code.replace(a,b)
