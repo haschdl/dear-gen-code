@@ -34,7 +34,7 @@ def JavaToJavascript(file_in, file_out):
         code = f.read()
 
         # replace typed declarations (excluding function)
-        types = ['PGraphics', 'PVector','PImage', 'float', 'float[]', 'int', 'int[]', 'String']
+        types = ['PGraphics', 'PVector','PImage', 'float', 'float[]', 'int', 'int[]', 'String', 'boolean']
         
         matches = re.findall(rgxMethod, code)
         for m in matches:
