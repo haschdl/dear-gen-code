@@ -6,3 +6,4 @@ _build
 **/out/*.png
 **/out/*.jpg
 node_modules
+**/.DS_Store
